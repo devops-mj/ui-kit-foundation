@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import FilterableGrid from '@/components/bricks/FilterableGrid'
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
               View Source GitHub <span aria-hidden="true">→</span>
             </Link>
           </div>
+          <FilterableGrid />
         </div>
       </div>
 
