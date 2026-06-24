@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import FilterableGrid from '@/components/bricks/FilterableGrid'
+import FilterableGrid from '../components/bricks/FilterableGrid'
 
 export default function Home() {
   return (

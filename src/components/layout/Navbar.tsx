@@ -19,9 +19,9 @@ export default function Navbar() {
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex md:gap-x-8">
           <Link href="/" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Home</Link>
-          <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Assets</a>
-          <Link href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Documentation</Link>
-          <Link href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</Link>
+          <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Assets</Link>
+          <Link href="/view/docs" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Documentation</Link>
+          <Link href="/view/pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</Link>
         </div>
 
         {/* Call to Action Desktop Button */}
@@ -57,7 +57,7 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-background px-6 py-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-150">
           <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block text-base font-medium text-muted-foreground hover:text-foreground">Home</Link>
-          <a href="#features" onClick={() => setMobileMenuOpen(false)} className="block text-base font-medium text-muted-foreground hover:text-foreground">Assets</a>
+          <Link href="#features" onClick={() => setMobileMenuOpen(false)} className="block text-base font-medium text-muted-foreground hover:text-foreground">Assets</Link>
           <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block text-base font-medium text-muted-foreground hover:text-foreground">Documentation</Link>
           <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block text-base font-medium text-muted-foreground hover:text-foreground">Pricing</Link>
           <div className="pt-2 border-t border-border">

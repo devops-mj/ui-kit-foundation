@@ -30,8 +30,8 @@ export default function Footer() {
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-foreground">Support</h3>
                 <ul role="list" className="mt-4 space-y-3">
-                  <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Documentation</Link></li>
-                  <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Changelog</Link></li>
+                  <li><Link href= "/view/docs" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Documentation</Link></li>
+                  <li><Link href="/view/changelog" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Changelog</Link></li>
                   <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Contact</Link></li>
                 </ul>
               </div>
@@ -40,8 +40,8 @@ export default function Footer() {
             <div>
               <h3 className="text-sm font-semibold leading-6 text-foreground">Legal</h3>
               <ul role="list" className="mt-4 space-y-3">
-                <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link></li>
-                <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Terms of Service</Link></li>
+                <li><Link href="/view/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link></li>
+                <li><Link href="/view/terms" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Terms of Service</Link></li>
                 <li><Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">License Agreement</Link></li>
               </ul>
             </div>
