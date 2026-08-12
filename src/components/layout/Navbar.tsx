@@ -22,6 +22,9 @@ export default function Navbar() {
           <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Assets</Link>
           <Link href="/view/docs" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Documentation</Link>
           <Link href="/view/pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</Link>
+          <Link href="/dashboard" className="text-zinc-400 hover:text-zinc-200 text-sm font-medium transition-colors">
+  Dashboard
+</Link>
         </div>
 
         {/* Call to Action Desktop Button */}
